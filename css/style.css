@@ -60,7 +60,7 @@
 
 .menu a {
   color: #FFFFFF;
-  text-decoration: none;
+  font-family: sans-serif;
 }
 
 .menu ul {
@@ -119,8 +119,42 @@
 
 .listaDeLinks a {
   margin: 0 20px;
-  text-decoration: none;
   color: #000000;
+}
+
+.contatos1 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: flex-center;
+      -ms-flex-align: flex-center;
+          align-items: flex-center;
+}
+
+.contatos1 img {
+  width: 10px;
+  height: 10px;
+  bottom: 0;
+  position: fixed;
+  width: 10%;
+}
+
+.contatos1 a {
+  margin: 0 10px;
+}
+
+.contatos1 p {
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 main, section {
